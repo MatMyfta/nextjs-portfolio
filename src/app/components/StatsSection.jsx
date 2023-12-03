@@ -29,10 +29,10 @@ const StatsSection = () => {
       <div className="border-b-2 border-[#33343F] py-8 px-2 sm:px-8 md:px-16 flex flex-row items-center justify-between">
         {statistics.map((statistic, index) => (
           <div key={statistic.key} className="flex flex-col items-center justify-center mx-4">
-            <h3 className="text-4xl sm:text-5xl font-bold text-white mb-2">
+            <h3 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-2">
               {statistic.number}
             </h3>
-            <p className="text-base md:text-lg">{statistic.field}</p>
+            <p className="text-xs md:text-lg">{statistic.field}</p>
           </div>
         ))}
       </div>
