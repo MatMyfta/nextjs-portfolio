@@ -32,7 +32,7 @@ let contacts = [
 
 const EmailSection = () => {
   return (
-    <section className="text-white mb-48">
+    <section className="text-white mb-24 md:mb-48">
       <div className="md:grid md:grid-cols-2 gap-8 items-start xl:gap-16">
         <div>
           <h2 className="text-4xl font-bold text-white mb-4">Let&apos;s connect</h2>

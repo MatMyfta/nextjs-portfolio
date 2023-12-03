@@ -4,7 +4,7 @@ import AboutTabs from "./AboutTabs";
 
 const AboutSection = () => {
   return (
-    <section className="text-white mb-48">
+    <section className="text-white mb-24 md:mb-48">
       <div className="md:grid md:grid-cols-2 gap-8 items-start xl:gap-16">
         <Image src="/images/about.jpg" alt="Developer" width={1200} height={1200} className="mb-8 w-[100%] object-cover max-h-[600px]" />
         <div>

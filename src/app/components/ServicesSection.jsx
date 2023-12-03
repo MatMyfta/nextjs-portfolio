@@ -25,7 +25,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="text-white mb-48">
+    <section className="text-white mb-24 md:mb-48">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start xl:gap-16">
         {services.map((service, index) => (
           <div key={service.key}>
