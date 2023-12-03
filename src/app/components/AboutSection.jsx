@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <section className="text-white mb-48">
       <div className="md:grid md:grid-cols-2 gap-8 items-start xl:gap-16">
-        <Image src="/images/about.jpg" width={1200} height={1200} className="mb-8 w-[100%] object-cover max-h-[600px]" />
+        <Image src="/images/about.jpg" alt="Developer" width={1200} height={1200} className="mb-8 w-[100%] object-cover max-h-[600px]" />
         <div>
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="text-base md:text-lg mb-8">

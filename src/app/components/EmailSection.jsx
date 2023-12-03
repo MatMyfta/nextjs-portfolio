@@ -5,21 +5,25 @@ import { Tooltip, Button } from "@nextui-org/react";
 
 let contacts = [
   {
+    key: 0,
     id: "@mateomyftaraj",
     label: "Linkedin",
     url: "https://www.linkedin.com/in/mateomyftaraj/",
   },
   {
+    key: 1,
     id: "@MatMyfta",
     label: "Github",
     url: "https://github.com/MatMyfta",
   },
   {
+    key: 2,
     id: "@matmyfta",
     label: "Instagram",
     url: "https://www.instagram.com/matmyfta/",
   },
   {
+    key: 3,
     id: "matmyfta",
     label: "Discord",
     url: "https://discord.com/users/155985869788938241",
@@ -31,18 +35,18 @@ const EmailSection = () => {
     <section className="text-white mb-48">
       <div className="md:grid md:grid-cols-2 gap-8 items-start xl:gap-16">
         <div>
-          <h2 className="text-4xl font-bold text-white mb-4">Let's connect</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Let&apos;s connect</h2>
           <p className="text-base md:text-lg mb-4 md:mb-12">
             I am currently looking for new opportunities. Whether you have an
             exciting project idea or simply want to discuss web development,
-            drop me a line using the form below. I'm eager to hear from you and
+            drop me a line using the form below. I&apos;m eager to hear from you and
             explore how we can collaborate.
           </p>
           <p className="text-base md:text-lg mb-4">You can also find me here:</p>
           <div className="mb-12">
             <ul>
               {contacts.map((item, index) => (
-                <li className="mb-2">
+                <li key={item.key} className="mb-2">
                   <Tooltip className="text-white" placement="right" content={item.id}>
                     <Link href={item.url}>
                     <Button >
