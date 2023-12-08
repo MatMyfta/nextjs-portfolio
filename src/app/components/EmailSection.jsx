@@ -101,7 +101,7 @@ const EmailSection = () => {
                 disabled
                 type="submit"
                 value="Send"
-                className="bg-[#c735ff] hover:bg-[#af16e3] text-white font-medium py-2.5 px-5 rounded-lg w-full"
+                className="bg-red-500 hover:bg-red-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
               >
                 Send message
               </button>
