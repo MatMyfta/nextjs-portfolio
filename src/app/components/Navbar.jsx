@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 const navLinks = [
   { key: 0, title: "Chi sono", path: "#about" },
   { key: 1, title: "Progetti", path: "#progetti" },
-  { key: 2, title: "Blog", path: "#blog" },
+  { key: 2, title: "Blog", path: "/blog" },
   { key: 3, title: "Contatti", path: "#contatti" },
 ];
 
