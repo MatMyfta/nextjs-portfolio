@@ -11,9 +11,9 @@ const getPostMetadata = () => {
   return slugs;
 };
 
-export default function Home() {
+const Blog = () => {
   const postMetadata = getPostMetadata();
-  const postpreviews = postMetadata.map((slug) => (
+  const postPreviews = postMetadata.map((slug) => (
     <div>
       <Link href={`/posts/${slug}`}>
         <h3>{slug}</h3>
@@ -22,11 +22,13 @@ export default function Home() {
   ));
   return (
     <main className="flex min-h-screen flex-col">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container mx-auto px-8 md:px-12 py-4 mt-48">
         <h1>Hello blog!</h1>
-        {postpreviews}
+        {postPreviews}
       </div>
     </main>
   );
 }
+
+export default Blog;
